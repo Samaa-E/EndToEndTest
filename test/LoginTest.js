@@ -24,9 +24,9 @@ test("User Login Page test 1", async t => {
     await t
         .setTestSpeed(1)
         .click(homepage.SigninLink)
-        .typeText(loginpage.Email, "samaabdelmoati30@gmail.com")
+        .typeText(loginpage.Email, "abc23@gmail.com")
         .click(loginpage.Continue)
-        .typeText(loginpage.Password, "Samasimo*m77")
+        .typeText(loginpage.Password, "abc1234!")
         .click(loginpage.LoginButton)
         .takeScreenshot()
         .wait(200);
